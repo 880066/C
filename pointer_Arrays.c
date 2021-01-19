@@ -13,6 +13,8 @@ int *p[3];
 p[0]=line1;
 p[1]=line2;
 p[2]=line3;
+  
+// int *p[]={line1,line2,line3};  şeklinde de tek seferde  atamayı yapabilirdik.
 
 for(i=0;i<3;i++){
   for(j=0;j<8;j++)
